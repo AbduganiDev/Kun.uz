@@ -1,0 +1,1025 @@
+.reklama img{
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.nav-menu {
+    width: 100%;
+    height: 40px;
+    display: flex;
+}
+
+.nav-menu ul li {
+    display: inline-block;
+    list-style: none;
+    margin-left: 20px;
+    padding-top: 10px;
+}
+
+.nav-menu ul li a {
+    text-decoration: none;
+    color: #000;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+
+.nav-menu .nav-menu-two {
+    width: 300px;
+    float: right;
+    display: flex;
+}
+
+.nav-menu .nav-menu-two li {
+    display: inline-block;
+}
+
+.nav-menu .nav-menu-two li img {
+    width: 100%;
+    margin-top: -5px;
+}
+
+.nav-menu .nav-menu-two li a {
+    border: none;
+    background-color: rgb(128, 123, 123);
+    color: #fff;
+    padding: 5px;
+    border-radius: 50px;
+    font-size: 12px;
+}
+
+.xudud {
+    width: 100%;
+    height: 40px;
+    background-color: #F0F0F0;
+    display: flex;
+    justify-items: center;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+
+.xudud span {
+    background-color: #17206A;
+    color: #fff;
+    padding: 10px 20px;
+}
+
+.xudud table td {
+    padding-left: 12px;
+}
+
+.xudud table td a{
+    text-decoration: none;
+    color: #000;
+    font-size: 12px;
+}
+
+.xudud table .active {
+    background-color: #17206A;
+    color: #fff;
+    padding: 13px 20px;
+    padding-left: -20px;
+}
+
+ .rasm1 img {
+    width: 100%;
+} 
+
+.fon-title {
+    padding: 15px;
+    background-color: #EFF2F8;
+}
+
+.fon-title p {
+    color: #B5B7B9;
+}
+
+.fon-title h2 {
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+.fon-title .text {
+    color: #000;
+}
+
+.FONT {
+    display: flex;
+    margin-top: 20px;
+}
+
+.FONT-1 {
+    display: flex;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.fontImg1 img{
+    width: 90%;
+    height: 110px;
+}
+
+.fontLeft1 {
+    padding: 0 20px 0 0px;
+}
+.fontLeft1 p:hover {
+    color: blue;
+    cursor: pointer;
+}
+
+
+.fontText1 {
+    margin-bottom: 10px;
+    color: #B5B7B9;
+    font-size: 12px;
+}
+
+.line1 {
+    width: 100%;
+    height: 1px;
+    background-color: #B5B7B9;
+    margin-top: 45px;
+}
+
+.line2 {
+    width: 100%;
+    height: 1px;
+    background-color: #B5B7B9;
+    margin-top: 25px;
+}
+
+.tanlov {
+    display: flex;
+    margin-bottom: 20px;
+}
+.tanlov p {
+    margin-top: 3px;
+}
+
+.circle {
+    width: 20px;
+    height: 20px;
+    border-radius: 50px;
+    background-color: blue;
+    margin-right: 10px;
+    margin-bottom: 5px;
+    position: relative;
+}
+.circle::after {
+    content: "";
+    width: 12px;
+    height: 12px;
+    background-color: #fff;
+    border-radius: 10px;
+    position: absolute;
+    top: 4px;
+    left: 4px;
+
+}
+
+.link {
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 20px;
+}  
+
+.SEND {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.SEND1 {
+    position: relative;
+}
+.SEND1::after {
+    content: "O'zbekiston";
+    width: 100px;
+    height: 20px;
+    background-color: blue;
+    color: #fff;
+    padding: 5px 15px;
+    position: absolute;
+    left: 0;
+    bottom: 93px;
+
+}
+
+
+.SEND1 img {
+    width: 97%;
+    height: 200px;
+}
+
+.SEND2 {
+    position: relative;
+}
+.SEND2::after {
+    content: "Iqtisodiyot";
+    width: 100px;
+    height: 20px;
+    background-color: blue;
+    color: #fff;
+    padding: 5px 15px;
+    position: absolute;
+    left: 0;
+    bottom: 93px;
+
+}
+
+.SEND2 img {
+    width: 100%;
+    height: 200px;
+    position: relative;
+}
+
+.SendText1 {
+    font-size: 12px;
+    padding: 10px 0;
+    color: #B5B7B9;
+}
+
+.SEND1 a {
+    text-decoration: none;
+    color: #000;
+}
+.SEND1 a:hover {
+    color: blue;
+}
+.SEND2 a {
+    text-decoration: none;
+    color: #000;
+}
+.SEND2 a:hover {
+    color: blue;
+}
+
+.yangilik {
+    width: 100%;
+    display: flex;
+    padding: 10px;
+}
+
+.circle1 {
+    width: 15px;
+    height: 15px;
+    border-radius: 20px;
+    background-color: blue;
+    margin-right: 10px;
+    margin-top: 3px;
+    position: relative;
+}
+
+.circle1::after {
+    content: "";
+    width: 8px;
+    height: 8px;
+    border-radius: 10px;
+    background-color: #fff;
+    position: absolute;
+    left: 3px;
+    top: 3px;
+}
+
+.content1 {
+    padding: 5px 10px;
+}
+.content1 i {
+    color: #B5B7B9;
+    font-size: 12px;
+    margin-bottom: 10px;
+}
+.content1 a {
+    line-height: 20px;
+    text-decoration: none;
+    color: #000;
+    font-size: 14px;
+}
+.content1 a:hover {
+    color: blue;
+    cursor: pointer;
+}
+.LINE {
+    width: 100%;
+    height: 1px;
+    background-color: #B5B7B9;
+    margin-top: 20px;
+}
+
+.box {
+    padding: 20px 0px 10px 10px;
+}
+
+
+.box-text {
+    width: 100%;
+    height: 50px;
+    background-color: #B5B7B9;
+    padding: 10px;
+    margin-top: 30px;
+    border-radius:  0 50px 50px 0;
+    position: relative;
+}
+.box-text::after {
+    content: "";
+    width: 2px;
+    height: 100%;
+    background-color: aqua;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+.box-text p {
+    padding: 5px 10px 5px 30px;
+}
+
+.container-full {
+    width: 100%;
+    height: 130px;
+    background-color: #F0F0F0;
+
+}
+
+.full-img img {
+    width: 90%;
+    margin-left: 5%;
+}
+
+.seciton {
+    padding: 10px 0;
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.circle-box {
+    width: 15px;
+    height: 15px;
+    border-radius: 20px;
+    background-color: blue;
+    margin-right: 10px;
+    margin-top: 3px;
+    position: relative;
+}
+
+.circle-box::after {
+    content: "";
+    width: 8px;
+    height: 8px;
+    border-radius: 10px;
+    background-color: #fff;
+    position: absolute;
+    left: 3px;
+    top: 3px;
+}
+
+.LION {
+    margin-bottom: 100px;
+}
+
+.xalqaro {
+    padding: 0 20px 0 0;
+    position: relative;
+}
+.xalqaro::after {
+    content: "Jahon";
+    width: 40px;
+    height: 10px;
+    padding:  5px 10px 12px 10px;
+    color: #fff;
+    background-color: blue;
+    position: absolute;
+    left: 0;
+    bottom: 114px;
+} 
+
+.xalqaro img {
+    width: 100%;
+    height: 332px;
+    margin-bottom: 10px;
+}
+.xalqaro a {
+    text-decoration: none;
+    color: #000;
+    padding-bottom: 20px;
+    font-size: 24px;
+    font-weight: bold;
+}
+.xalqaro a:hover {
+    color: blue;
+}
+
+.xalqaro p {
+    font-size: 14px;
+    margin-top: 30px;
+}
+
+.part-1 {
+    padding: 0 10px 0px 20px;
+    position: relative;
+}
+.part-1::after {
+    content: "Jamiyat";
+    width: 50px;
+    height: 18px;
+    padding: 5px;
+    background-color: blue;
+    color: #fff;
+    position: absolute;
+    left: 20px;
+    bottom: 63px;
+}
+.part-1 img {
+    width: 100%;
+    padding-bottom: 5px;
+}
+.part-1 a {
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+    font-size: 14px;
+}
+.part-1 a:hover {
+    color: blue;
+}
+
+.part-2 {
+    padding: 0 10px 0px 20px;
+    position: relative;
+}
+.part-2::after {
+    content: "Sport";
+    width: 50px;
+    height: 18px;
+    padding: 5px;
+    background-color: blue;
+    color: #fff;
+    position: absolute;
+    left: 20px;
+    bottom: 81px;
+}
+.part-2 img {
+    width: 100%;
+    height: 132px;
+    padding-bottom: 5px;
+}
+.part-2 a {
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+    font-size: 14px;
+}
+.part-2 a:hover {
+    color: blue;
+}
+
+.part-3 {
+    margin-top: 30px;
+    padding: 0 10px 0px 20px;
+    position: relative;
+}
+.part-3::after {
+    content: "O'zbekiston";
+    width: 80px;
+    height: 18px;
+    padding: 5px;
+    background-color: blue;
+    color: #fff;
+    position: absolute;
+    left: 20px;
+    bottom: 81px;
+}
+.part-3 img {
+    width: 100%;
+    height: 132px;
+    padding-bottom: 5px;
+}
+.part-3 a {
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+    font-size: 14px;
+}
+.part-3 a:hover {
+    color: blue;
+}
+
+.part-4 {
+    margin-top: 30px;
+    padding: 0 10px 0px 20px;
+    position: relative;
+}
+.part-4::after {
+    content: "O'zbekiston";
+    width: 80px;
+    height: 18px;
+    padding: 5px;
+    background-color: blue;
+    color: #fff;
+    position: absolute;
+    left: 20px;
+    bottom: 63px;
+}
+.part-4 img {
+    width: 100%;
+    height: 132px;
+    padding-bottom: 5px;
+}
+.part-4 a {
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+    font-size: 14px;
+}
+.part-4 a:hover {
+    color: blue;
+}
+
+.full-container {
+    width: 100%;
+    height: 400px;
+    background-color: #F0F0F0;
+    margin-top: 30px;
+    padding: 20px 0 30px 0;
+}
+
+.sela {
+    display: flex;
+}
+
+.main {
+    width: 90%;
+    margin: 0 auto;
+}
+.box-mini {
+    width: 15px;
+    height: 15px;
+    border-radius: 20px;
+    background-color: blue;
+    margin-right: 10px;
+    margin-top: 3px;
+    position: relative;
+}
+
+.box-mini::after {
+    content: "";
+    width: 8px;
+    height: 8px;
+    border-radius: 10px;
+    background-color: #fff;
+    position: absolute;
+    left: 3px;
+    top: 3px;
+}
+.interyu {
+    display: flex;
+    justify-content: flex-end;
+}
+.fon {
+    position: relative;
+}
+.oq {
+    width: 90%;
+    height: 270px;
+    margin-top: 50px;
+    margin-left: 30px;
+    padding: 10px 15px;
+    background-color: #fff;
+}
+
+.oq img {
+    width: 80%;
+    position: absolute;
+    left: 7px;
+    top: 15px;
+    box-shadow: 5px 5px blue;
+}
+.oq a {
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+    position: absolute;
+    top: 200px;
+}
+.oq a:hover {
+    color: blue;
+}
+
+.fon1 {
+    position: relative;
+}
+.fon-img {
+    width: 90%;
+    height: 270px;
+    margin-top: 50px;
+    margin-left: 30px;
+    padding: 10px 15px;
+    background-color: #fff;
+    padding: 10px;
+}
+
+.fon-img img {
+    width: 80%;
+    height: 140px;
+    position: absolute;
+    left: 7px;
+    top: 15px;
+    box-shadow: 5px 5px blue;
+}
+.fon-img a {
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+    position: absolute;
+    top: 200px;
+}
+.fon-img a:hover {
+    color: blue;
+}
+
+.kun {
+    display: flex;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.Cont {
+    position: relative;
+}
+
+.kun-img {
+    width: 100%;
+    height: 400px;
+    margin-top: 50px;
+    background-color: #F0F0F0;
+    position: relative;
+}
+.kun-img img {
+    width: 90%;
+    height: 300px;
+    position: absolute;
+    left: 0px;
+    top: -35px;
+    box-shadow: 10px 10px #fff;
+}
+
+.kun-img a {
+    text-decoration: none;
+    color: #000;
+    font-size: 24px;
+    position: absolute;
+    top: 300px;
+    left: 20px;
+}
+.kun-img a:hover {
+    color: blue;
+}
+
+.kun-link img {
+    width: 100%;
+    height: 110px;
+    margin-left: 10px;
+}
+.kun-text {
+    padding: 5px 10px 10px 30px;
+}
+.kun-text a {
+    text-decoration: none;
+    color: #000;
+    line-height: 20px;
+}
+.kun-text a:hover{
+    color: blue;
+}
+
+.maqola {
+    display: flex;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.maqola1 {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.jahon {
+    width: 90%;
+    margin-right: 10%;
+    position: relative;
+}
+.jahon::after {
+    content: "Jahon";
+    width: 40px;
+    height: 18px;
+    padding: 5px;
+    background-color: #17206A;
+    color: #fff;
+    position: absolute;
+    left: 0;
+    bottom: 98px;
+}
+
+
+.jahon img {
+    width: 100%;
+}
+
+.jahon h3 {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    font-size: 14px;
+}
+.jahon p {
+    font-size: 14px;
+}
+.sport {
+    width: 90%;
+    margin-right: 10%;
+    position: relative;
+}
+.sport::after {
+    content: "Sport";
+    width: 40px;
+    height: 18px;
+    padding: 5px;
+    background-color: #17206A;
+    color: #fff;
+    position: absolute;
+    left: 0;
+    bottom: 99px;
+}
+
+.sport img {
+    width: 100%;
+    height: 245px;
+}
+
+.sport h3 {
+    margin-top: 10px;
+    margin-bottom: 37px;
+    font-size: 14px;
+}
+.sport p {
+    font-size: 14px;
+}
+
+.sport1 {
+    width: 90%;
+    margin-right: 10%;
+    position: relative;
+}
+.sport1::after {
+    content: "Sport";
+    width: 40px;
+    height: 18px;
+    padding: 5px;
+    background-color: #17206A;
+    color: #fff;
+    position: absolute;
+    left: 0;
+    bottom: 130px;
+}
+
+.sport1 img {
+    width: 100%;
+    height: 245px;
+}
+
+.sport1 h3 {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    font-size: 14px;
+}
+.sport1 p {
+    font-size: 14px;
+}
+
+.web-maqola {
+    margin-top: 30px;
+}
+
+.jamiyat {
+    width: 90%;
+    margin-right: 10%;
+    position: relative;
+}
+.jamiyat::after {
+    content: "O'zbekiston";
+    width: 80px;
+    height: 18px;
+    padding: 5px;
+    background-color: #17206A;
+    color: #fff;
+    position: absolute;
+    left: 0;
+    bottom: 114px;
+}
+
+.jamiyat img {
+    width: 100%;
+    height: 245px;
+}
+
+.jamiyat h3 {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    font-size: 14px;
+}
+.jamiyat p {
+    font-size: 14px;
+}
+
+.jamiyat1 {
+    width: 90%;
+    margin-right: 10%;
+    position: relative;
+}
+.jamiyat1::after {
+    content: "O'zbekiston";
+    width: 80px;
+    height: 18px;
+    padding: 5px;
+    background-color: #17206A;
+    color: #fff;
+    position: absolute;
+    left: 0;
+    bottom: 162px;
+}
+
+.jamiyat1 img {
+    width: 100%;
+    height: 245px;
+}
+
+.jamiyat1 h3 {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    font-size: 14px;
+}
+.jamiyat1 p {
+    font-size: 14px;
+}
+
+.jamiyat2 {
+    width: 90%;
+    margin-right: 10%;
+    position: relative;
+}
+.jamiyat2::after {
+    content: "Sport";
+    width: 40px;
+    height: 18px;
+    padding: 5px;
+    background-color: #17206A;
+    color: #fff;
+    position: absolute;
+    left: 0;
+    bottom: 133px;
+}
+
+.jamiyat2 img {
+    width: 100%;
+    height: 245px;
+}
+
+.jamiyat2 h3 {
+    margin-top: 10px;
+    margin-bottom: 39px;
+    font-size: 14px;
+}
+.jamiyat2 p {
+    font-size: 14px;
+}
+
+.xamkor {
+    display: flex;
+    margin-top: 20px;
+}
+
+.xamkor img {
+    width: 88px;
+    height: 40px;
+}
+.xamkor h3 {
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.containerFull {
+    width: 100%;
+    height: 400px;
+    background-color: #F0F0F0;
+}
+.containerFull .row {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+.box1 {
+    width: 90%;
+    height: 330px;
+    margin-top: 30px;
+
+}
+
+.sea {
+    width: 90%;
+}
+
+.box1 img {
+    width: 90%;
+    height: 200px;
+}
+
+.box1-text {
+    padding: 10px 15px;
+    background-color: #fff;
+    width: 90%;
+    margin-top: -4px;
+    height: 135px;
+}
+.box1-text a {
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+}
+.box1-text a:hover {
+    color: blue;
+}
+
+.full-img1 {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.full-img1 img {
+    width: 90%;
+    margin-left: 10%;
+    height: 200px;
+}
+
+.container--full {
+    width: 100%;
+    height: 185px;
+    margin: 0 auto;
+    background-color: #161F66;
+    margin-top: 30px;
+}
+
+.footer {
+    width: 100%;
+    display: flex;
+}
+
+.menu {
+    background-color: #1C2680;
+    width: 100%;
+}
+
+.menu ul {
+    display: flex;
+    padding: 10px 0;
+    margin-left: 2%;
+}
+.menu ul li {
+    list-style: none;
+    margin-left: 50px;
+}
+.menu ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.menu2 {
+    width: 100%;
+    background-color: #1C2680;
+}
+
+.menu2 img {
+    margin-left: 230px;
+    margin-top: 5px;
+}
+
+.menu3 {
+    width: 100%;
+}
+.menu3 ul {
+    margin-left: 7%;
+    margin-top: 25px;
+}
+.menu3 ul li {
+    list-style: none;
+    color: #fff;
+    font-size: 12px;
+}
+
+.icons {
+    padding-left: 20px ;
+}
+
+.icons i {
+    margin-left: 20px;
+    margin-top: 65px;
+    color: #ADB6FF;
+}
